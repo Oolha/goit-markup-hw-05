@@ -395,6 +395,19 @@ Increase the flow of customers and sales for your business with digital marketin
         </li>
     </ul>
 </div>
+<div class="email-footer-container">
+    <p class="footer-email-text">Subscribe</p>
+    <label for="email" class="footer-email-label"></label>
+    <input type="email" name="user-email" class="footer-email" placeholder="E-mail" id="email" />  
+</div>
+<div class="btn-footer-container">
+    <button type="submit" class="footer-btn-tg">
+    <p class="footer-btn-tg-text">Subscribe</p>
+    <svg class="icon-tg" width="24" height="24">
+    <use class="icon-tg-link" href="./images/icons.svg#icon-telegram"></use>
+    </svg>
+    </button>
+</div>
 </div>
     </footer>
 
@@ -440,13 +453,24 @@ Increase the flow of customers and sales for your business with digital marketin
             </div>
             <div class="review-form">
                 <label for="comment" class="review-form-label">Comment</label>
-                <textarea class="review-form-input" type="text" name="user-comment" id="comment" placeholder="Tex input" required></textarea>
+                <textarea class="review-form-textarea" type="text" name="user-comment" id="comment" placeholder="Tex input" required></textarea>
             </div>
             <div class="review-form-field">
-                <input class="review-form-field-checkbox" type="checkbox" name="privacy-policy" value="true" id="privacy-policy" required />
-                <label for="privacy-policy" class="review-form-field-label">I accept the terms and conditions of the Privacy Policy</label>
+                <input class="review-form-field-checkbox visually-hidden" type="checkbox" name="privacy-policy" value="true" id="privacy-policy" required />
+                <label for="privacy-policy" class="review-form-field-label">
+                <span class="review-form-own-checkbox">
+                <svg class="own-checkbox-icon" width="10" height="8">
+                    <use class="own-checkbox-icon-link" href="./images/icons.svg#icon-checkmark"></use>
+                </svg>
+                </span>
+                    I accept the terms and conditions of the 
+                    <a class="privacy-policy-link" href="">Privacy Policy</a>
+                
+                </label>
             </div>
-            <button class="review-btn-send" type="button"></button>
+            <button class="review-btn-send" type="button">
+            <p class="btn-send-text">Send</p>
+            </button>
         </form>
         </div>
 
