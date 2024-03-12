@@ -456,9 +456,7 @@ padding: 32px 0 32px;
 .footer-svg {
     fill: #f4f4fd;
 }
-.email-footer-container {
-    margin-right: 24px;
-}
+
 .email-footer-field {
     display: flex;
     gap: 24px;
@@ -482,7 +480,7 @@ padding: 32px 0 32px;
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
-    padding-left: 16px;
+    
 
 }
 .footer-email::placeholder {
